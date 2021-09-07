@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Georama&display=swap');
+
+
+
+
+#navigbar {
+  background-color: #C9E4C5;
+  font-family: 'Baloo Chettan 2', cursive;
+}
+
+#heading {
+  background-color: #C9E4C5;
+  text-align: center;
+}
+
+#heading h3 {
+  font-family: 'Baloo Chettan 2', cursive;
+  font-size: 3rem;
+  padding-top: 6rem;
+}
+
+#heading p {
+  font-family: 'Georama', sans-serif;
+  font-size: 1.4rem;
+}
+
+.heading-btn {
+  margin-bottom: 4rem;
+  font-family: 'Georama', sans-serif;
+  font-size: 1rem;
+}
+
+#tasks {
+   background-color: #FAEBE0;
+   text-align: center;
+}
+
+.task {
+    font-family: 'Georama', sans-serif;
+    font-size: 1.4rem;
+    padding: 1.5vh 0;
+}
+
+.population h3 {
+  font-size: 2rem;
+}
+#tasks h3 {
+  font-family: 'Baloo Chettan 2', cursive;
+}
+
+.river, .coasts, .population {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.shown {
+  display:block;
+}
+
+.canyon1, .canyon2, .twelveApostles, .population {
+  padding: 5vh 0;
+}
+

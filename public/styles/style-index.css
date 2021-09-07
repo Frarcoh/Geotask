@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Georama&display=swap');
+
+/* ----- Navbar ----- */
+
+#navigbar {
+  background-color: #C9E4C5;
+  font-family: 'Baloo Chettan 2', cursive;
+}
+
+/* ----- Heading ----- */
+
+#heading {
+  background-color: #C9E4C5;
+}
+
+#app {
+  text-align: left;
+  padding: 10% 0 5% 15%;
+  font-family: 'Baloo Chettan 2', cursive;
+  font-size: 3.7rem;
+  width: 50%;
+}
+
+.landing-image {
+  width: 40%;
+}
+
+.landing-image-leaf {
+  padding-left: 10%;
+}
+
+.div-container-landing {
+  display: flex;
+  flex-direction: row;
+}
+
+/* ----- Explanation ----- */
+
+#explanation {
+  background-color: #FAEBE0;
+}
+
+.explanation {
+  padding: 5% 15% 5% 15%;
+  text-align: center;
+  font-family: 'Baloo Chettan 2', cursive;
+}
+
+.explanation-heading {
+  font-size: 2.7rem;
+}
+
+.explanation-graphics {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+
+.easy, .realiability, .accessibility {
+  padding: 3%;
+  font-family: 'Georama', sans-serif;
+}
+
+.explanation-p {
+  font-family: 'Georama', sans-serif;
+  font-size: 1.2rem;
+}
+
+.explanation-graphics .fas, .far {
+  font-size: 3rem;
+  padding: .5rem;
+  color: #C1AC95;
+}
+
+.explanation-graphics .fas:hover{
+  color: #B5CDA3;
+}
+
+.explanation-graphics .far:hover{
+  color: #B5CDA3;
+}
+
+/* ----- Content ----- */
+
+#content {
+  background-color: #C9E4C5;
+}
+
+.content-heading {
+  font-family: 'Baloo Chettan 2', cursive;
+  text-align: center;
+  padding: 5%;
+}
+
+.content-explanation h3 {
+  font-family: 'Georama', sans-serif;
+  font-size: 2rem;
+}
+
+.content-explanation p {
+  font-family: 'Georama', sans-serif;
+  font-size: 1.4rem;
+}
+
+.content-explanation img {
+  margin: 5%;
+}
+
+.content-explanation {
+  text-align: center;
+  padding: 3%;
+}
+
+.content-heading-h3 {
+  font-size: 2.7rem;
+}
+
+
+.writing-image {
+  width: 20%;
+}
+
+/* ----- Newsletter ----- */
+
+#newsletter {
+  background-color: #FAEBE0;
+}
+
+.newsletter h3{
+  font-family: 'Baloo Chettan 2', cursive;
+  font-size: 2.7rem;
+}
+
+.newsletter p {
+  font-family: 'Georama', sans-serif;
+  font-size: 1.4rem;
+}
+
+.newsletter {
+  text-align: left;
+  padding: 5% 2% 7% 15%;
+}
+
+.form-input {
+  border: 0;
+  border-bottom: 2px solid gray;
+  outline: 0;
+  background: transparent;
+  width: 60%;
+}
+
+.input-box {
+  padding: 10% 0 7% 5%;
+}
+
+/* ----- Bottom ----- */
+
+#bot {
+  background-color: #C9E4C5;
+}
+
+.coded-by {
+   font-family: 'Baloo Chettan 2', cursive;
+   padding: 5%;
+   text-align: center;
+}
+
+.coded-by .fas {
+  color: red;
+}
+
+.h3-heading {
+  display: none;
+}
+
+/* ----- Media Query for Phones ----- */
+
+@media screen and (max-width: 414px) {
+  .landing-image {
+    display: none;
+  }
+
+  .h3-heading {
+    display:inline-block;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Baloo Chettan 2', cursive;
+    padding: 15% 0 15% 0;
+    margin: 20%;
+  }
+
+  #app {
+    display: none
+  }
+
+  .explanation-heading {
+  font-size: 1.8rem;
+  }
+
+  .content-heading-h3 {
+  font-size: 1.8rem;
+  }
+
+  .content-explanation h3 {
+  font-size: 1.6rem;
+  }
+
+  .newsletter h3 {
+  font-size: 1.5rem;
+  }
+
+  .newsletter {
+    padding: 10%;
+    text-align: center;
+  }
+
+  .content-explanation p {
+    font-size: 1.2rem;
+  }
+
+  .explanation-graphics h3 {
+    font-size: 1.6rem;
+  }
+
+  .explanation-graphics p {
+    font-size: 1.2rem;
+  }
+
+  .input-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* ----- Media Query for Tablets ----- */
+
+@media screen and (min-width: 415px) and (max-width: 960px) {
+  .landing-image-leaf {
+    padding-left: 0;
+    width: 120%;
+  }
+
+  .input-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .newsletter {
+    padding: 10%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Georama&display=swap");
+
+* {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+#navigbar {
+  background-color: #c9e4c5;
+  font-family: "Baloo Chettan 2", cursive;
+}
+
+.hidden {
+  display: none;
+}
+
+.shown {
+  display: block;
+}
+
+#heading {
+  background-color: #c9e4c5;
+  text-align: center;
+}
+
+#heading h3 {
+  font-family: "Baloo Chettan 2", cursive;
+  font-size: 3rem;
+  padding-top: 6rem;
+}
+
+#heading p {
+  font-family: "Georama", sans-serif;
+  font-size: 1.4rem;
+}
+
+.heading-btn {
+  margin-bottom: 4rem;
+  font-family: "Georama", sans-serif;
+  font-size: 1rem;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+.river,
+.coasts,
+.population {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.shown {
+  display: block;
+}
+
+img {
+  width: 30%;
+}
+
+.population,
+.river,
+.coasts {
+  background-color: #faebe0;
+}
+
+.river h3,
+.coasts h3,
+.population h3 {
+  font-family: "Baloo Chettan 2", cursive;
+  font-size: 3rem;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 960px) {
+  img {
+    width: 60%;
+  }
+}
