@@ -10,6 +10,3 @@ I wanted to build something that could help IGCSE Geography's students like me t
 
 ## What you can do?
 With Geotask you can consult resources like definitions, photos and tasks to help you master the final exam.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
