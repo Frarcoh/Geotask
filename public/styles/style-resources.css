@@ -5,7 +5,7 @@
   margin: 0;
 }
 
-h3 {
+h3, p {
   margin: 0;
 }
 
@@ -66,6 +66,10 @@ img {
   width: 30%;
 }
 
+.river {
+  text-align: center;
+}
+
 .population,
 .river,
 .coasts {
@@ -80,12 +84,35 @@ img {
   padding: 3rem 0;
   text-align: center;
 }
-      .carousel img {
-        margin: auto;
-      }
-      
-@media screen and (max-width: 960px) {
-  img {
-    width: 60%;
-  }
+
+.river p,
+.coasts p,
+.population p,
+.river span,
+.coasts span,
+.population span{
+  font-family: "Georama", sans-serif;
+}
+
+.river p,
+.coasts p,
+.population p {
+  text-align: center;
+  font-size: 1.7rem;
+  padding: 2rem 0;
+}
+
+.river span,
+.coasts span,
+.population span {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.rivers-span {
+  padding: 2rem;
+}
+
+.heading p {
+  margin-bottom: 1rem;
 }

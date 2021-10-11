@@ -53,8 +53,14 @@
    background-color: #FAEBE0;
 }
 
+p {
+  margin: 0;
+}
 
-/* 
-#definitions {
-  padding: 0 10vh 0 10vh;
-} */
+.population h3,
+.river h3,
+.coasts h3 {
+  font-family: 'Baloo Chettan 2', cursive;
+  font-size: 3rem;
+  padding: 2rem;
+}

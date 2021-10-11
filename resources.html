@@ -4,9 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="title" content="Geotask. By students, for students." />
     <meta
       name="description"
@@ -23,20 +20,13 @@
     <meta name="google-site-verification" content="-L2nFzGRZMVlxxOT_ESOPfh93pfVkPdP30Fgu0g6LF8" />
 
     <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
-      crossorigin="anonymous"
-    />
-
-    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="styles/style-who.css" />
+    <link rel="stylesheet" href="styles/style-resources.css" />
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -47,13 +37,14 @@
       integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
       crossorigin="anonymous"
     ></script>
+
     <script
       src="https://kit.fontawesome.com/1e394e7ccf.js"
       crossorigin="anonymous"
     ></script>
     <script src="https://unpkg.com/typewriter-effect@2.18.0/dist/core.js"></script>
 
-    <title>Contacts - Geotask</title>
+    <title>Geotask</title>
   </head>
   <body>
     <section id="navigbar">
@@ -82,9 +73,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav" style="font-size: 1.3rem">
               <li class="nav-item" style="padding: 3%">
-                <a class="nav-link active" aria-current="page" href="/home"
-                  >Home</a
-                >
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item" style="padding: 3%">
                 <a class="nav-link" href="/definitions">Definitions</a>
@@ -95,65 +84,74 @@
               <li class="nav-item" style="padding: 3%">
                 <a class="nav-link" href="/gallery">Gallery</a>
               </li>
-                                          <li class="nav-item" style="padding: 3%">
+                            <li class="nav-item" style="padding: 3%">
                 <a class="nav-link" href="/resources">Resources</a>
               </li>
               <li class="nav-item" style="padding: 3%">
                 <a class="nav-link" href="/who">Contacts</a>
               </li>
+              
             </ul>
           </div>
         </div>
       </nav>
     </section>
 
-    <section id="hello">
-      <div id="app"></div>
-
-      <img
-        class="laptop-img"
-        src="images/—Pngtree—2 5d electronic device laptop_4391586.png"
-        alt="Laptop Image"
-      />
-      <img
-        class="calculator-img"
-        src="images/—Pngtree—math clipart_5730905.png"
-        alt="Math Doodles Image"
-      />
-    </section>
-
-    <section id="explanation">
-      <div class="explanation-heading">
-        <h3>I'm a student learning coding as an hobby.</h3>
-        <p class="who">
-          My name is Francesco Pio Costanzo (my friends call me Frarco) and I
-          live and study in Aversa. I love learning how to code, new languages
-          and subjects such as Maths, Physics and Latin. This is one of my first
-          projects, I hope you will enjoy it. You can reach me here:
-        </p>
-      </div>
-
-      <div class="socials">
-        <a href="https://github.com/Frarcoh"> <i class="fab fa-github"> </i></a>
-        <a href="https://telegram.me/Frarco">
-          <i class="fab fa-telegram"> </i
-        ></a>
-        <a href="https://twitter.com/heyfrarco">
-          <i class="fab fa-twitter"> </i
-        ></a>
-      </div>
-    </section>
-
-    <section id="bot">
-      <div class="coded-by">
+    <section id="heading">
+      <div class="heading">
+        <h3>Resources.</h3>
         <p>
-          Coded with <i class="fas fa-heart"></i> by
-          <a href="https://github.com/Frarcoh">Frarco</a> <br />
+          Choose a category from the dropdown menu to see the relative resources.
+          <br />
+          You can re-click on a category to hide it. Search for a term with
+          CTRL+F.
         </p>
       </div>
+
+      <button
+        class="btn btn-secondary dropdown-toggle heading-btn"
+        type="button"
+        id="dropdownMenuButton"
+        data-bs-toggle="dropdown"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+        Choose a category
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item dropdownitem1" href="#">Population</a>
+        <a class="dropdown-item dropdownitem2" href="#">River</a>
+        <a class="dropdown-item dropdownitem3" href="#">Coast</a>
+      </div>
     </section>
+
+<section id="resources row" style="--bs-gutter-x: 0">
+  <div class="population">
+    <h3>Population's resources:</h3>
+    <p>Sorry, there are no resources available, please try again.</p>
+  </div>
+
+  <div class="river row" style="--bs-gutter-x: 0">
+    <h3>River's resources:</h3>
+    <div class="rivers-span">
+    <span><a href="https://www.youtube.com/watch?v=nGJXxAZPm8M">Video:</a> How the Ucayali River changed: 1985 - 2013</span> <br>
+    <span><a href="https://www.youtube.com/watch?v=A47ythEcz74">Video:</a> River's deltas formation</span> <br>
+    <span><a href="https://sites.google.com/a/markham.edu.pe/mr-carter-s-igcse-geography/rivers/deposition-flood-plains-and-deltas">Site:</a> deltas and river floods</span> <br>
+    <span><a href="https://www.thegeographeronline.net/rivers1.html">Site:</a> river resources</span> <br>
+    <span><a href="https://www.youtube.com/watch?v=_vFX7cHkXOE">Video:</a> floodpains and levees</span>
+    </div>
+
+  </div>
+
+  <div class="coasts row" style="--bs-gutter-x: 0">
+    <h3>Coast's resources:</h3>
+        <p>Sorry, there are no resources available, please try again.</p>
+  </div>
+
+</section>
+
+
     <script src="config.js"></script>
-    <script src="js/who.js"></script>
-    <script type="text/javascript" src="config.js"></script>
+    <script src="js/resources.js"></script>
   </body>
 </html>

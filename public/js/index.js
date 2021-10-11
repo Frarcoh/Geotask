@@ -1,4 +1,5 @@
-var app = document.getElementById('app');
+/* jshint esversion: 6 */
+var app = document.getElementById("app");
 
 var typewriter = new Typewriter(app, {
   loop: false,
@@ -7,12 +8,11 @@ var typewriter = new Typewriter(app, {
 
 typewriter
   .pauseFor(1000)
-  .typeString('Geography.')
+  .typeString("Geography.")
   .pauseFor(300)
   .deleteChars(7)
-  .typeString('<strong>task</strong>. <br> Made <strong>by</strong> students, ')
+  .typeString("<strong>task</strong>. <br> Made <strong>by</strong> students, ")
   .pauseFor(300)
-  .typeString('<strong>for</strong> students.')
+  .typeString("<strong>for</strong> students.")
   .pauseFor(1000)
   .start();
-

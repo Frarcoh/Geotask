@@ -7,13 +7,13 @@ const river = $(".river");
 const coasts = $(".coasts");
 
 li1.click(function () {
-  population.toggleClass("shown");
+    population.toggleClass("shown");
 });
 
 li2.click(function () {
-  river.toggleClass("shown");
+    river.toggleClass("shown");
 });
 
 li3.click(function () {
-  coasts.toggleClass("shown");
+    coasts.toggleClass("shown");
 });
