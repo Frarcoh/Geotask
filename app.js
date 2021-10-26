@@ -61,7 +61,7 @@ app.post("/", function (req, res) {
 
   const options = {
     method: "POST",
-    auth: "Frarcoo:6e86d12ec85585078c86e7aa551be54e-us6",
+    auth: config.API_USERNAME + ":" + config.API_TOKEN,
   };
   const request = https.request(url, options, function (response) {
     if (response.statusCode === 200) {
